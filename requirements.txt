@@ -1,0 +1,9 @@
+streamlit>=1.30.0
+chromadb>=0.4.22
+sentence-transformers>=2.3.0
+pypdf>=4.0.0
+pandas>=2.1.0
+openai>=1.10.0
+langchain-text-splitters>=0.0.1
+altair>=5.2.0
+fpdf2>=2.7.7

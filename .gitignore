@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/
+
+# Vectorstore and SQLite Databases
+vectorstore/
+audit_logs/*.db
+data/
+reports/*.pdf
+reports/*.md
+reports/
+
+# IDE and other environments
+.vscode/
+.idea/
+.DS_Store
+.gemini/
