@@ -3,6 +3,7 @@ import json
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+from collections import Counter
 
 # Import platform backend modules
 from src.loader import DocumentLoader
@@ -547,7 +548,7 @@ with tab4:
     analytics_df = logger.get_logs()
     
     # Calculate stats
-    total_docs = len(doc_df) if 'doc_df' in locals() and not doc_df.empty else 0
+    total_docs = len(set(meta.get("filename") for meta in metadatas)) if metadatas else 0
     total_chunks = len(metadatas) if metadatas else 0
     total_queries = len(analytics_df)
     
