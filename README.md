@@ -263,7 +263,7 @@ docker run -p 8501:8501 compliance-rag:latest
 The modules can be imported directly into Python workflows.
 
 ### Class: `ComplianceRetriever`
-[Source Code](file:///e:/Corporate%20Knowledge%20Intelligence%20Assistant/regulatory-compliance-intelligence-platform/src/retrieval.py)
+[Source Code](https://github.com/Priyanshu1112/regulatory-compliance-intelligence-platform/blob/master/src/retrieval.py)
 
 ```python
 from src.retrieval import ComplianceRetriever
@@ -289,7 +289,7 @@ for c in chunks:
 ```
 
 ### Class: `RiskScorer`
-[Source Code](file:///e:/Corporate%20Knowledge%20Intelligence%20Assistant/regulatory-compliance-intelligence-platform/src/risk_scoring.py)
+[Source Code](https://github.com/Priyanshu1112/regulatory-compliance-intelligence-platform/blob/master/src/risk_scoring.py)
 
 ```python
 from src.risk_scoring import RiskScorer
