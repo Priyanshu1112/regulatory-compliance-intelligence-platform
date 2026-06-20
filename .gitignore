@@ -26,3 +26,5 @@ reports/
 .idea/
 .DS_Store
 .gemini/
+test_sandbox/
+
